@@ -1,6 +1,8 @@
 # Shnippets
 
-## A collection of POSIX compliant shell script snippets.
+A collection of POSIX compliant shell script snippets.
+
+![master branch](https://github.com/ahmedelhori/shnippets/actions/workflows/ci.yml/badge.svg)
 
 ## Contribution 
 * Every submitted snippet has to have sufficient testing
