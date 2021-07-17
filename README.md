@@ -20,6 +20,9 @@
 snippet(){
 	echo 'Example snippet'
 }
+
+# Usage
+# snippet
 ```
 
 `./src/test/snippet_test.sh`

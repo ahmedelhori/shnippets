@@ -18,7 +18,7 @@ ask_yes_no(){
 	fi
 }
 
-# How to use
+# Usage
 # The environmental variable "allow_something", can be set beforehand by the user.
 # if ask_yes_no "$allow_something" '<Question>'; then
 # 	echo 'Do something'

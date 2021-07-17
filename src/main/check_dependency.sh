@@ -19,7 +19,7 @@ check_dependency(){
 	fi
 }
 
-# How TO USE
+# Usage
 # missing="$(check_dependency 'sl' 'anything')"
 # if [ "$?" -ne '0' ]; then
 # 	echo "Error: The following dependencies are missing: ${missing}" >&2
