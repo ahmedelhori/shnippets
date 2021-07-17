@@ -1,0 +1,9 @@
+*
+!*/
+!/.gitignore
+!/README.md
+!/LICENSE
+!/Dockerfile
+!/test.sh
+!/src/**/*.sh
+!/.github/workflows/ci.yml
