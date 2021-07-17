@@ -1,5 +1,10 @@
 name: CI Pipeline
 on: [ push, pull_request ]
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Docker
+      run:  docker build . -t shnippets && docker run --rm shnippets
